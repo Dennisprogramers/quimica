@@ -1,0 +1,19 @@
+body{
+	background-color: black;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+*{
+	  font-family: 'Sora', sans-serif;
+	  font-size: 15px;
+	  font-weight: 10px;
+}
+.contenedor{
+	background-color: white;
+	width: 100%;
+	
+}
+video{
+	 width: 90%;
+}
