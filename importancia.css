@@ -1,0 +1,45 @@
+*{
+	  font-family: 'Sora', sans-serif;
+	  font-size: 20px;
+	  font-weight: 10px;
+}
+.contenedor-1{
+	width: 95%;
+	background-color: #B0C4DE;
+	height: 4000px;
+}
+.p1{
+  color: black;
+  background-color: white;
+}
+.img1{
+	display: block;
+	width: 40%;
+	border-radius: 5%;
+}
+.p2{
+	border-radius: 5%;
+	width: 50%;
+background-color: #808080;
+color: white;
+display: inline-block;
+}
+
+@media only screen and (max-width: 675px){
+	*{
+		font-size: 19px;
+	}
+	.contenedor-1{
+		width: 98%;
+		height: 2000px;
+	}
+	.img1{
+		display: block;
+		 width: 100%;
+		 border-radius: 5%;
+	}
+	.p2{
+		width: 100%;
+	
+	}
+}
